@@ -33,9 +33,9 @@ public class Main {
         final double ALTURA_MIN = 0.50;
         final double ALTURA_MAX = 0.20;
         double altura;
-        
+
         altura = RND.nextDouble() * (ALTURA_MAX - ALTURA_MIN) + ALTURA_MIN;
-        System.out.printf(Locale.ENGLISH,"%s %.2f%s", "Altura aleatoria ..........:", altura, "metros");
+        System.out.printf(Locale.ENGLISH, "%s %.2f%s", "Altura aleatoria ..........:", altura, "metros");
 
     }
 
